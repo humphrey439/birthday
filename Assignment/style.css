@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+.card {
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.front {
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.front img {
+    width: 100px;
+    height: auto;
+}
+
+.inside {
+    padding: 20px;
+    text-align: center;
+}
+
+.inside p {
+    margin-bottom: 15px;
+}
